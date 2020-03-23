@@ -4,7 +4,7 @@ CREATE TABLE players(
     first_name varchar(10),
     position varchar(3) NOT NULL DEFAULT 'ATH',
     jersery_number integer NOT NULL UNIQUE,
-    weight_lb intger,
+    weight_lb integer,
     height_in integer,
     date_of_birth varchar(12)
     CONSTRAINT check_jersey_num
